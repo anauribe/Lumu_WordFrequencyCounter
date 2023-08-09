@@ -9,6 +9,7 @@ public class TextAnalyzer {
             word = word.replaceAll("[^a-zA-Z]", "").toLowerCase();
             if (!word.isEmpty()) {
                 wordFrequency.put(word, wordFrequency.getOrDefault(word, 0) + 1);
+                
             }
         }
 
